@@ -4,17 +4,19 @@
 
 ## 项目结构
 
+```
 dataFormatForChatglm6BCodeGenerate/
-├── preprocess/ # 预处理脚本
-│ ├── CodeExercise-Python-27k.py # 处理Python练习数据集
-│ ├── codellama-2-20k-zhTrain.py # 处理CodeLlama中文数据集
-│ ├── leet10k.py # 处理LeetCode 10k数据集
-│ ├── leetcodeHumanAnswer.py # 处理LeetCode人工答案
-│ └── xlcostTrain.py # 处理XLCOST训练数据
-├── postprocess/ # 后处理脚本
-│ ├── format.py # ChatGLM测试结果格式化
-│ ├── true_false.py # 结果验证格式化
-│ └── json显示转化为易于人类阅读的python显示.py # JSON转Python格式显示
+├── preprocess/                   # 预处理脚本
+│   ├── CodeExercise-Python-27k.py    # 处理Python练习数据集
+│   ├── codellama-2-20k-zhTrain.py    # 处理CodeLlama中文数据集
+│   ├── leet10k.py                    # 处理LeetCode 10k数据集
+│   ├── leetcodeHumanAnswer.py        # 处理LeetCode人工答案
+│   └── xlcostTrain.py                # 处理XLCOST训练数据
+└── postprocess/                  # 后处理脚本
+    ├── format.py                     # ChatGLM测试结果格式化
+    ├── true_false.py                 # 结果验证格式化
+    └── json显示转化为易于人类阅读的python显示.py  # JSON转Python格式显示
+```
 
 ## 功能特点
 
